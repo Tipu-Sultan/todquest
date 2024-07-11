@@ -13,7 +13,7 @@ const LoginPage = () => {
       <div className="login-right">
         <div className="login-box">
           <div className="login-header">
-            <h2>ALREADY MEMBERS</h2>
+            <h4>ALREADY MEMBERS</h4>
             <a href="/help" className="help-link">Need help?</a>
           </div>
           <form>
