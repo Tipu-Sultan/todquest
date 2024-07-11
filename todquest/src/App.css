@@ -1,8 +1,6 @@
-/* src/App.css */
-
-body, html, #root, .App {
+* {
   margin: 0;
   padding: 0;
-  height: 100%;
+  box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }

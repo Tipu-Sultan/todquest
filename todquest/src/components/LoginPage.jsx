@@ -1,13 +1,12 @@
 import React from 'react';
 import './LoginPage.css';
-import img from './loginPage.png';
 
 const LoginPage = () => {
   return (
-    <div className="login-container" style={{ backgroundImage: `url(${img})` }}>
+    <div className="login-container">
       <div className="login-box">
         <div className="login-header">
-          <h2>ALREADY MEMBERS</h2>
+          <h4>ALREADY MEMBERS</h4>
           <a href="/help" className="help-link">Need help?</a>
         </div>
         <form>
@@ -20,7 +19,7 @@ const LoginPage = () => {
           <button type="submit">SIGN IN</button>
         </form>
         <div className="login-footer">
-          <p>Don't have an account yet? <a href="/register">Create an account</a></p>
+          <p>Don't have an account yet? <br /> <a href="/register">Create an account</a></p>
         </div>
       </div>
     </div>
